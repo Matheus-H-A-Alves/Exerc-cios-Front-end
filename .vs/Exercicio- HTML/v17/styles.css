@@ -1,0 +1,73 @@
+/* Geral */
+*{
+    margin: auto;
+    padding: 0;
+    display: border-box;
+    font-family: Verdana;
+
+}
+body{
+    background-color: rgba(224, 224, 224, 0.658);
+}
+/* Titulo */
+h1 {
+    padding: 10px;
+    margin-top: 25px;
+    border: 1px solid #aaa;
+    border-radius: 1rem;
+    text-align: center;
+    font-weight: bold;
+    width: 500px;
+    background-color: rgb(36, 100, 47);
+    color: #fdfdfd;
+}
+p{
+    max-width: 600px;
+    margin-bottom: 5px;
+    font-weight: lighter;
+}
+/* Imagem */
+.center-image{
+    text-align: center;
+    margin-top: 1rem;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+
+}
+.info-greeting{
+    text-align: center;
+    margin-top: 15px;
+    padding: 15px;
+    font-size: 25px;
+}
+.info-greeting p{
+    margin-bottom: 50px;
+}
+/* links */
+.links p{
+    font-size: 20px;
+    margin-bottom: 1rem;
+}
+a{
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(88, 179, 148);
+    transition: 0.5s;
+    border: 1px solid rgb(36, 100, 47);
+    background-color: #fdfdfd;
+    padding: .4rem;
+    border-radius: 1rem;
+    
+}
+a:hover{
+    background-color: rgb(88, 179, 148);
+    color: #fdfdfd;
+    
+}
+.links{
+    text-align: center;
+    
+}
+/* ícones */
