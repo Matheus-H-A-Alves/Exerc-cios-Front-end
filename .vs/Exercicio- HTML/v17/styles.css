@@ -32,6 +32,7 @@ p{
     margin-top: 1rem;
     width: 200px;
     height: 200px;
+    border: 3px solid rgb(36, 100, 47);
     border-radius: 50%;
     overflow: hidden;
 
@@ -70,4 +71,32 @@ a:hover{
     text-align: center;
     
 }
-/* ícones */
+/* Media query */
+
+@media (max-width:480px){
+    body{
+        background-color: #aaa;
+        margin-bottom: 30px;
+        padding-bottom: 25px;
+    }
+    h1{
+        max-width: 300px;
+        font-size: 25px;
+    }
+    .info-greeting p{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .center-image{
+        height: 200px;
+        width: 200px;
+        border: 3px solid rgb(36, 100, 47);
+
+    }
+    .links p{
+        font-size: 18px;
+    }
+    a{
+        font-size: 18px;
+    }
+}
